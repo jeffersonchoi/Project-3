@@ -3,7 +3,7 @@ class CreateStops < ActiveRecord::Migration
     create_table :stops do |t|
       t.float :latitude
       t.string :display_name
-      t.string :id
+      t.string :stop_id
       t.float :longitude
 
       t.timestamps null: false
